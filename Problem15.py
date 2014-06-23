@@ -5,6 +5,7 @@ bottom right corner.
 How many routes are there through a 20 20 grid?
 """
 
+"""
 cells = 10
 paths = []
 lastcell = cells - 1
@@ -38,5 +39,14 @@ while currentcell >= 0:
                 
     
 print totalpaths
+"""
 
+currentcell = 1.0
+cellpaths = 2.0
 
+while currentcell < 20.0:
+    currentcell += 1.0
+    cellpaths = cellpaths * (4.0 - 2.0/currentcell)
+    print (currentcell, cellpaths)
+    
+    
