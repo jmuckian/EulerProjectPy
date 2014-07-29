@@ -19,6 +19,8 @@ F12 = 144
 The 12th term, F12, is the first term to contain three digits.
 
 What is the first term in the Fibonacci sequence to contain 1000 digits?
+
+ANSWER: 4782
 """
 
 numbers = [0, 1]

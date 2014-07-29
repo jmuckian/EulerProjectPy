@@ -15,7 +15,6 @@ while n < 2000000:
             isprime = False
             break
     if isprime == True:
-        print n
         primes.append(n)
     isprime = True
     n += 2
