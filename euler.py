@@ -552,7 +552,7 @@ def twelve():
         #print "%d: %s = %d" % (subject, str(divisors), total) 
         if total > highest:
             highest = total    
-    return subject
+    return sum
 
 def thirteen():
     """
